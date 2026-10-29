@@ -1,0 +1,9 @@
+{
+  "name": "osiris-vision-web",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker landing & OTA server for Osiris Camera Vision",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  }
+}

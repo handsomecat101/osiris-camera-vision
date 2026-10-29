@@ -1,0 +1,11 @@
+name = "osiris-vision-web"
+main = "src/index.js"
+compatibility_date = "2026-10-18"
+
+routes = [
+  { pattern = "vision.jimmyvu.me", custom_domain = true }
+]
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "osiris-vision-storage"

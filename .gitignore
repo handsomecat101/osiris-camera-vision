@@ -1,0 +1,42 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+app/build/
+*.apk
+*.aab
+*.dex
+
+# Android / Gradle
+.gradle/
+app/android/.gradle/
+local.properties
+**/GeneratedPluginRegistrant.java
+captures/
+*.keystore
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Cloudflare / Node
+.wrangler/
+osiris-vision-web/.wrangler/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/

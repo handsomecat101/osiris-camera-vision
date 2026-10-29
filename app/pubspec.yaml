@@ -1,0 +1,35 @@
+name: osiris_camera_vision
+description: "Osiris Camera Vision — Realtime Mobile Edge AI Object Detection on Android."
+publish_to: 'none'
+
+version: 1.0.3+4
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  camera: ^0.11.0+2
+  video_player: ^2.9.2
+  tflite_flutter: ^0.12.1
+  image: ^4.3.0
+  file_picker: ^8.1.7
+  vibration: ^2.0.1
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+  http: ^1.2.2
+  open_filex: ^4.5.0
+  package_info_plus: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/

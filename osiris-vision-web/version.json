@@ -1,0 +1,11 @@
+{
+  "version": "1.0.3",
+  "versionCode": 4,
+  "releasedAt": "2026-10-19T01:38:00.000Z",
+  "releaseNotes": "• Khắc phục triệt để lỗi cài đặt gói 'App not installed as package appears to be invalid' (chuẩn hóa targetSdk 34 & quyền FileProvider IPC).\n• Tăng tốc độ camera thời gian thực lên 15 - 25 FPS (xử lý tensor YUV trực tiếp bằng thuật toán số nguyên không nghẽn luồng).\n• Tự động xoay 90 độ cảm biến camera theo đúng chiều dọc, sửa lỗi nhận diện sai và méo khung viền.\n• Bổ sung chế độ Đọc Ảnh tĩnh từ bộ nhớ máy (nhận diện tức thì <50ms).\n• Tối ưu chế độ xem lại Video kèm thanh trượt Seek bar và phát/dừng mượt mà.",
+  "android": {
+    "downloadUrl": "https://vision.jimmyvu.me/dl/OsirisCameraVision-release.apk",
+    "filename": "OsirisCameraVision-release.apk",
+    "fileSize": 81007071
+  }
+}
